@@ -1,0 +1,1 @@
+Multiplexer is the many to one switch and is used to pass one of the input depending on the status of the select input.
