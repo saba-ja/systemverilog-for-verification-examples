@@ -23,8 +23,8 @@ module data_types_tb();
 
         // Procedural assignments
         b = 1;
-        b32 = 32'hFFFFFFFF; // Maximum value that can be stored in an unsigned 32-bit integer
-        ui = 32'hFFFFFFFF;  // Maximum value that can be stored in an unsigned 32-bit integer
+        b32 = 32'hFFFFFFFF; // Maximum value in an unsigned 32-bit integer
+        ui = 32'hFFFFFFFF;  // Maximum value in an unsigned 32-bit integer
         i = -2**31;         // Correct minimum value for a 32-bit signed integer
         b8 = 127;           // Maximum value for a signed 8-bit integer
         s = -2**15;         // Correct minimum value for a 16-bit signed integer
@@ -48,7 +48,7 @@ module data_types_tb();
 
         ui = ui + 1;  // wraps around
         assert (ui == 0) 
-            $display("[Pass] Test case 3 successful.");
+            $display("[Pass] Test case 3 successful.", $time);
         else 
             $error("[Fail] Test case 3 failed. Expected: 0, Actual: %u", ui);
 
