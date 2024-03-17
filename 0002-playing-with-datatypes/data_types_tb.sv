@@ -16,7 +16,7 @@ module data_types_tb();
     real r;                     // 2-state, double precision floating
 
     // -------------------------------------------------------------------------
-    // Initial block of the TB
+    // Initial block of the TB 2.2
     // -------------------------------------------------------------------------
 
     initial begin

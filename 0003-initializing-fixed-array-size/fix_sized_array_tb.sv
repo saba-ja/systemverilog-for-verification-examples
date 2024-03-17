@@ -17,7 +17,7 @@ module fix_sized_array_tb();
         bit [31:0] dst1[ARR_SIZE];
 
         // ---------------------------------------------------------------------
-        // Initializing arrays and priting elements using foreach
+        // Initializing arrays and priting elements using foreach 2.10, 2.11
         // ---------------------------------------------------------------------
         arr_x = '{3, 2, 1, 0}; // Set 4 elements
         foreach (arr_x[i]) 
@@ -54,7 +54,7 @@ module fix_sized_array_tb();
             $display("dst1[%0d] = %0d", i, dst1[i]);
         end
 
-
+        // 2.8
         // These methoeds are not support in the simulator Icarus, 
         // but are supported in Mentor QuestaSim
         
