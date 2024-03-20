@@ -16,3 +16,11 @@ enumerated variable, but both of these solutions can give illegal values if your
 enumerated values are not contigious, such as 1, 2, 3, 5, 8.
 You can use a do…while loop to step through all the values, checking when the
 value wraps around, as shown in Sample 2.59 .
+
+
+fi rst () returns the fi rst member of the enumeration.
+last() returns the last member of the enumeration.
+next() returns the next element of the enumeration.
+next (N) returns the N th next element.
+prev () returns the previous element of the enumeration.
+prev(N) returns the N th previous element.
