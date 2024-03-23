@@ -1,0 +1,7 @@
+start
+reset
+enable
+disable
+
+check_status
+done
